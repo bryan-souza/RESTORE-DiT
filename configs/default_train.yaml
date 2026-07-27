@@ -41,7 +41,7 @@ SDT:                                   # See lib/models/SDT_own for a detailed d
 
 training_settings:
     prediction_type: 'sample'              # Prediction type. ['epsilon', 'sample']
-    batch_size: 16                          # Batch size. 3    36 for EarthNet   12 too big  8 for 3DUnet
+    batch_size: 4                          # Batch size. 3    36 for EarthNet   12 too big  8 for 3DUnet
     num_epochs: 3000                       # Number of training epochs.
     accum_iter: 1                          # Accumulate gradients for 'accum_iter` iterations.
     gradient_clip_norm: 0                  # If > 0, clips gradient norm to that value.
@@ -86,7 +86,7 @@ metrics:
 
 misc:
     logstep_train: 20                     # Training log interval in number of iterations.
-    checkpoint_every_n_epochs: 50           # Save checkpoint after every `checkpoint_every_n_epochs` training epochs.
+    checkpoint_every_n_epochs: 10           # Save checkpoint after every `checkpoint_every_n_epochs` training epochs.
     log_gradients: false                   # True to log gradients and model parameters using Weights & Biases.
     val_every_n_epochs: 1                  # Validation interval in epochs.
     plot_every_n_epochs: 15                # Plot interval in epochs.

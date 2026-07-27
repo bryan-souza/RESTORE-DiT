@@ -1,6 +1,6 @@
 data:
     dataset: pastis         # Name of the dataset, ['pastis']
-    root: /data0/qidi/PASTIS-R                  # Data root directory
+    root: /kaggle/input/datasets/bryansouza1337/pastis-r/PASTIS-R # Data root directory
     split: train   # or test
     channels: all  # all or bgr-nir
     filter_settings:

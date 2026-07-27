@@ -1,0 +1,30 @@
+[project]
+name = "restore-dit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "diffusers==0.26.3",
+    "einops==0.7.0",
+    "geopandas==0.14.4",
+    "huggingface-hub==0.25.2",
+    "matplotlib==3.6.2",
+    "nestargs==1.1.0",
+    "numpy==1.26.3",
+    "omegaconf==2.3.0",
+    "pandas==2.0.3",
+    "pillow==10.0.1",
+    "prodict==0.8.18",
+    "pyyaml==6.0.1",
+    "segmentation-models-pytorch==0.3.3",
+    "tensorboard>=2.20.0",
+    "timm==0.9.2",
+    "torch==1.13.0",
+    "torchgeometry==0.1.2",
+    "torchinfo==1.7.0",
+    "torchvision==0.14.0",
+    "tqdm==4.64.0",
+    "wandb==0.13.9",
+    "xarray==2024.1.0",
+]
